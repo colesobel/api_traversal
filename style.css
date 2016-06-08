@@ -4,9 +4,21 @@
 }
 
 #container{
-
+    width: 100vw;
 }
 
 #center_column{
-  
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .movie_poster {
+        width: 19vw;
+    }
+}
+
+@media (max-height: 600px) {
+    .movie_poster {
+        height: 35vh;
+    }
 }
